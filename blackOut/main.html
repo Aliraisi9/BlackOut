@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>بازی خاموشی تحت وب</title>
+  <link rel="stylesheet" href="/reset.css">
+  <link rel="stylesheet" href="style-main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap" rel="stylesheet">
+  <script src="main.js" defer></script>
+</head>
+<body dir="rtl">
+    <header>
+        <div class="home-header-01">
+            <div class="home-header-01-menu">
+               <a href="/home.html">خانه</a>
+               <a href="/rules.html">قوانین</a>
+               <a href="/about.html">حمایت</a>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="home-nav-01">
+            <h1 class="home-nav-02">🎲 بازی خاموشی آنلاین 🎲</h1>
+            <h4 class="home-nav-04">این بازی ذخیره نمیشه و هیچ داده ای نگه نمیداره</h4>
+            <br>
+            <h3 class="home-nav-05">بازیکنان: <span id="players">فعلا کسی رو اضافه نکردی</span></h3>
+            <button class="main-nav-but-01" onclick="addPlayer()">➕ افزودن بازیکن</button>
+            <br>
+            <button class="main-nav-but-02" onclick="nextTurn()">🎲 نوبت بعد</button>
+            <h3 class="home-nav-03"><p id="result">بعد از افزودن بازیکن <br> <br> تاس بریز تا کارت اینجا نمایش داده بشه
+            </p></h3>
+        </div>
+
+    <footer>
+        <p>این بازی به‌صورت رایگان در اختیار شما قرار گرفته است؛ اگر مایل بودید می‌توانید از آن حمایت کنید.</p>
+    </footer>
+</body>
+</html>
